@@ -5,11 +5,10 @@
 
 version: 2
 updates:
-  
-package-ecosystem: "maven"
-  directory: "/"
-  schedule:
-    interval: "daily"
-  commit-message:
-    prefix: "fix"
-    include: "scope"
+  - package-ecosystem: "maven"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    commit-message:
+      prefix: "fix"
+      include: "scope"
